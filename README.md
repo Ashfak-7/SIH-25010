@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date:30/09/2025
+## Register Number:25003270
+## Name:ASHFAK N
 ## Problem Title
 SIH 25010: Smart Crop Advisory System for Small and Marginal Farmers
 ## Problem Description
@@ -41,28 +41,81 @@ Government of Punjab
 Agriculture, FoodTech & Rural Development
 
 ## Proposed Solution
-<h3>Remove These Lines</h3>
-<ul><li>Detailed explanation of the proposed solution</li>
-<li>How it addresses the problem</li>
-<li>Innovation and uniqueness of the solution</li></ul>
+App Name:Farmer’s Friend
+
+Description:
+Farmer's Friend is a multilingual, AI-powered mobile application designed specifically for small and marginal farmers in Punjab. It provides personalized, real-time crop advisory services based on soil health, weather conditions, pest detection, and market trends. The app supports voice interaction in Punjabi, Hindi, and English to cater to low-literacy users.
+
+Key Features:
+
+Personalized Crop Advisory: Recommendations on crop selection based on soil type, previous crop history, and local weather.
+Soil Health & Fertilizer Guidance: Upload soil test reports or use soil sensor data to get fertilizer and nutrient management advice.
+Weather Alerts & Predictive Insights: Real-time weather updates and forecasts to help plan irrigation and harvesting.
+Pest/Disease Detection: Upload images of crops to identify pests/diseases using AI image recognition and get treatment suggestions.
+Market Price Tracking: Real-time updates on crop prices in local mandis to help farmers decide the best time to sell.
+Voice Support: Voice commands and responses in local languages for ease of use.
+Feedback System: Collect user feedback and usage data to continuously improve advisory accuracy.
 
 ## Technical Approach
-<h3>Remove These Lines</h3>
-<ul><li>Technologies to be used (e.g. programming languages, frameworks, hardware)
-</li>
-<li>Methodology and process for implementation <b>(Flow Charts/Images/ working prototype)</b></li></ul>
+Frontend:
+
+React Native for cross-platform mobile app development (Android/iOS).
+Voice interface using Google Speech-to-Text and Text-to-Speech APIs supporting Punjabi, Hindi, and English.
+Backend:
+
+Node.js with Express.js for RESTful API services.
+Python Flask/Django for AI model serving.
+AI & Machine Learning:
+
+TensorFlow/PyTorch for pest/disease image classification models.
+Weather prediction models using time-series forecasting (LSTM networks).
+Soil nutrient recommendation engine based on rule-based expert systems and ML.
+Database:
+
+PostgreSQL for structured data (user profiles, crop history, advisory data).
+MongoDB for unstructured data (images, logs).
+Cloud & DevOps:
+
+AWS/GCP for scalable cloud infrastructure.
+Serverless functions (AWS Lambda) for event-driven tasks like weather alerts.
+CI/CD pipelines using GitHub Actions.
+GIS & Location Services:
+
+Google Maps API or OpenStreetMap for location-specific advisories.
+Soil and weather data integration from government APIs (e.g., IMD, Soil Health Card portal).
+
+![alt text](simple-diagram-1.png)
+![alt text](applayout.jpg)
 
 ## Feasibility and Viability
-<h3>Remove These Lines</h3>
-<ul><li>Analysis of the feasibility of the idea</li>
-<li>Potential challenges and risks</li>
-<li>Strategies for overcoming these challenges</li></ul>
+Low Digital Literacy-->Implement voice-based interaction and simple UI/UX with local language support.
+Internet Connectivity Issues-->Enable offline mode with cached advisories and sync when online.
+Data Privacy and Security-->Use encryption for data storage and transmission; comply with data protection laws.
 
 ## Impact and Benefits
-<h3>Remove These Lines</h3>
-<ul><li>Potential impact on the target audience</li>
-<li>Benefits of the solution (social, economic, environmental, etc.)</li></ul>
+Increased Crop Yield: Personalized advisories can improve yield by 20–30%, enhancing farmer income.
+Cost Reduction: Optimized fertilizer and pesticide use reduces input costs and environmental harm.
+Sustainable Farming: Promotes eco-friendly practices and reduces chemical overuse.
+Empowerment: Farmers gain scientific knowledge in their native language, reducing dependency on unreliable sources.
+Market Access: Real-time price tracking helps farmers get better market value for their produce.
+Government Support: Data collected can help government agencies design better policies and extension programs.
+Food Security: Improved productivity contributes to regional and national food security.
 
 ## Research and References
-<h3>Remove These Lines</h3>
-<ul><li>Details / Links of the reference and research work</li></ul>
+NABARD Report 2022 - Small and Marginal Farmers in India
+URL: https://www.nabard.org/auth/writereaddata/tender/2106222143NABARD-Annual-Report-2021-22.pdf
+
+ICT in Agriculture: Enhancing Crop Yield and Farmer Livelihoods
+URL: https://www.fao.org/3/i3546e/i3546e.pdf
+
+Indian Meteorological Department (IMD) Weather API
+URL: https://mausam.imd.gov.in/api/
+
+Soil Health Card Scheme - Government of India
+URL: https://soilhealth.dac.gov.in/
+
+Google Cloud Speech-to-Text API
+URL: https://cloud.google.com/speech-to-text
+
+TensorFlow Image Classification Tutorial
+URL: https://www.tensorflow.org/tutorials/images/classification
